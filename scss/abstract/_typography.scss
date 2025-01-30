@@ -1,0 +1,71 @@
+@use 'color';
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  src: url(/fonts/Poppins-ExtraLight.ttf) format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(/fonts/Poppins-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url(/fonts/Poppins-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+}
+
+$ExtraLight: 200;
+$Regular: 400;
+$SemiBold: 600;
+$Poppins-ExtraLight: 'Poppins-ExtraLight', sans-serif;
+$Poppins-Regular: 'Poppins-Regular', sans-serif;
+$Poppins-SemiBold: 'Poppins-SemiBold', sans-serif;
+
+body {
+  font-size: 15px;
+  line-height: 2;
+  font-family: $Poppins-Regular;
+  color: color.$Very-Dark-Blue;
+}
+
+h1,
+h2 {
+  font-size: clamp(1.563rem, 10vw - 1rem, 2.25rem);
+}
+h1 {
+  font-weight: $ExtraLight;
+  font-family: $Poppins-ExtraLight;
+}
+h2 {
+  font-weight: $SemiBold;
+}
+p{
+  color: color.$Grayish-Blue;
+}
+a {
+  text-decoration: none;
+}
+
+.title,
+a {
+  text-align: center;
+}
+
+.cards__card {
+h3{
+  font-size: 1.2rem;
+}
+p{
+  font-size: 0.84rem;
+  color: color.$Grayish-Blue;
+}
+}
+
+.attribution {
+  font-size: 0.7333rem;
+  a {
+    color: color.$Blue;
+  }
+}

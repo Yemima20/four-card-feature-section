@@ -1,0 +1,16 @@
+@use 'color';
+
+@mixin flex($direction: column, $justifyContent: center, $alignItems: center, $gap: 1rem){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    gap: $gap;
+}
+
+@mixin card($padding: 1rem, $maxWidth: 22rem, $bgColor: color.$White, $borderRadius: 4px){
+    padding: $padding;
+    max-width: $maxWidth;
+    background-color: $bgColor;
+    border-radius: $borderRadius;
+}

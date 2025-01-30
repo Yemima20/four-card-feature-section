@@ -1,0 +1,23 @@
+@use '../abstract/' as a;
+
+body {
+  min-height: 100dvh;
+  @include a.flex($gap: 5rem);
+  background-color: a.$Very-Light-Gray;
+}
+
+main{
+  width:100%;
+}
+
+.container {
+  margin-inline: 2rem;
+  @include a.flex($gap: 5rem);
+}
+
+.title {
+  max-width: 34rem;
+  p {
+    margin-top: 1rem;
+  }
+}
