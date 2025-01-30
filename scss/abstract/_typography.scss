@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: 'Poppins-ExtraLight';
-  src: url(/fonts/Poppins-ExtraLight.ttf) format('truetype');
+  src: url(../../fonts/Poppins-ExtraLight.ttf) format('truetype');
   font-weight: 200;
 }
 @font-face {
   font-family: 'Poppins-Regular';
-  src: url(/fonts/Poppins-Regular.ttf) format('truetype');
+  src: url(../../fonts/Poppins-Regular.ttf) format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Poppins-SemiBold';
-  src: url(/fonts/Poppins-SemiBold.ttf) format('truetype');
+  src: url(../../fonts/Poppins-SemiBold.ttf) format('truetype');
   font-weight: 600;
 }
 
@@ -30,6 +30,15 @@ body {
   color: color.$Very-Dark-Blue;
 }
 
+.title {
+  line-height: normal;
+}
+
+.title,
+a {
+  text-align: center;
+}
+
 h1,
 h2 {
   font-size: clamp(1.563rem, 10vw - 1rem, 2.25rem);
@@ -39,28 +48,23 @@ h1 {
   font-family: $Poppins-ExtraLight;
 }
 h2 {
-  font-weight: $SemiBold;
+  font-family: $Poppins-SemiBold;
 }
-p{
+p {
   color: color.$Grayish-Blue;
 }
 a {
   text-decoration: none;
 }
 
-.title,
-a {
-  text-align: center;
-}
-
 .cards__card {
-h3{
-  font-size: 1.2rem;
-}
-p{
-  font-size: 0.84rem;
-  color: color.$Grayish-Blue;
-}
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.84rem;
+    color: color.$Grayish-Blue;
+  }
 }
 
 .attribution {

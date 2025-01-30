@@ -12,7 +12,7 @@ main{
 
 .container {
   margin-inline: 2rem;
-  @include a.flex($gap: 5rem);
+  @include a.flex($gap: 3rem);
 }
 
 .title {
