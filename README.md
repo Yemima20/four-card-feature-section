@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/result.png)
 
 ### Links
 
 - [Solution URL]()
-- [Live Site URL]()
+- [Live Site URL](https://yemima20.github.io/four-card-feature-section/)
 
 ## My process
 
