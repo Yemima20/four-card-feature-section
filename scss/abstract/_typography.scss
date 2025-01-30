@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: 'Poppins-ExtraLight';
-  src: url(../../fonts/Poppins-ExtraLight.ttf) format('truetype');
+  src: url('../../fonts/Poppins-ExtraLight.ttf') format('truetype');
   font-weight: 200;
 }
 @font-face {
   font-family: 'Poppins-Regular';
-  src: url(../../fonts/Poppins-Regular.ttf) format('truetype');
+  src: url('../../fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 @font-face {
   font-family: 'Poppins-SemiBold';
-  src: url(../../fonts/Poppins-SemiBold.ttf) format('truetype');
+  src: url('../../fonts/Poppins-SemiBold.ttf') format('truetype');
   font-weight: 600;
 }
 
@@ -52,9 +52,6 @@ h2 {
 }
 p {
   color: color.$Grayish-Blue;
-}
-a {
-  text-decoration: none;
 }
 
 .cards__card {
