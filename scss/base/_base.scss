@@ -1,8 +1,11 @@
 @use '../abstract/' as a;
 
 body {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  place-items: center;
+  gap: 5rem;
   min-height: 100dvh;
-  @include a.flex($gap: 5rem);
   background-color: a.$Very-Light-Gray;
 }
 
