@@ -15,12 +15,12 @@ main{
 
 .container {
   margin-inline: 2rem;
-  @include a.flex($gap: 3rem);
+  @include a.flex($gap: 3.5rem);
 }
 
 .title {
   max-width: 34rem;
   p {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
 }

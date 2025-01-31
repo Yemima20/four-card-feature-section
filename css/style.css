@@ -87,14 +87,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 3.5rem;
 }
 
 .title {
   max-width: 34rem;
 }
 .title p {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .cards {
